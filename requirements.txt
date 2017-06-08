@@ -1,0 +1,3 @@
+# Requirements for packages to be installed in local virtual environment
+cherrypy
+python-magic

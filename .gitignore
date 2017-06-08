@@ -5,3 +5,5 @@ venv/
 *.local.conf
 # Ignore compiled python
 *.pyc
+# Vim swop files
+.*.swp

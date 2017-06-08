@@ -45,6 +45,18 @@ Still need to be written. Some initial outlines:
 * system startup - systemd?
 * keys storage folder setup and structure
 
+Make sure `virtualenv` is installed. Then do:
+`git clone https://github.com/fitzterra/sshPubKeyServer.git`
+`cd sshPubKeyServer`
+`virtualenv venv`
+`source venv/bin/activate`
+`pip install -r requirements.txt`
+`mkdir keys`
+
+Now you either go on to the Configuration or, start the server with:
+`./runServer.py`
+and then access it on port `4321`.
+
 Configuration
 -------------
 Still to be done. Initial outlines:
