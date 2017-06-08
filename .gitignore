@@ -1,0 +1,7 @@
+# Ignore the keys store and virtual environment
+keys/
+venv/
+# Ignore site local config files
+*.local.conf
+# Ignore compiled python
+*.pyc
